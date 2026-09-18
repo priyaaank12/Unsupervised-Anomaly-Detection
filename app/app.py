@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 from model import ConvAutoencoder
 from dataset import default_transform
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "autoencoder_best.pth")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "autoencoder_best.pth")
 THRESHOLD = 0.003618  # <-- your latest threshold from evaluate.py
 
 
